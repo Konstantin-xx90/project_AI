@@ -4,8 +4,6 @@
 1. Purpose
 2. Installation
 3. Usage
-4. Tests
-5. Contribution
 
 ## Purpose
 The main goal of the task is the detection of the emotional state of a person that looks at a company’s
