@@ -40,7 +40,7 @@ This application was created due as a part of a university project (Data Science
 1. Download all the documents in folder project_AI
 2. Download the picture dataset from [here](https://www.kaggle.com/datasets/msambare/fer2013)
 3. Save the dataset in a folder and secure the data in the folder structure as followed
-4. ![image](https://github.com/user-attachments/assets/3b11c283-be2d-4b22-ab76-04717c1a4f63)
+4. ![image](https://github.com/user-attachments/assets/3b11c283-be2d-4b22-ab76-04717c1a4f63)  
    That means, the images with different tags must be copied in ```none```, for Training and Testing.
 6. Start the document ```project_AI.py``` and run to train the algorithm.
 7. Run ```Project_AI_Execute.py```for classifying a new picture.
