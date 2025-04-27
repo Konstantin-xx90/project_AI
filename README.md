@@ -42,7 +42,7 @@ This application was created due as a part of a university project (Data Science
 1. Download all the documents in folder project_AI
 2. Download the picture dataset from [here](https://www.kaggle.com/datasets/msambare/fer2013)
 3. Save the dataset in a folder and secure the data in the folder structure as shown
-4. ![image](https://github.com/user-attachments/assets/3b11c283-be2d-4b22-ab76-04717c1a4f63)
+4. ![image](https://github.com/user-attachments/assets/3b11c283-be2d-4b22-ab76-04717c1a4f63) means, the images with different tags must be copied in ```none```, for Training and Testing.
 5. Start the document ```project_AI.py```.
 6. Type in your Terminal ```python main.py```.
 7. Follow the instruction on your screen.
@@ -52,16 +52,6 @@ This application was created due as a part of a university project (Data Science
 11. The program is not case-sensitive.
 12. To check a habit, it has to be incremented in the respective time interval (daily / weekly).
 13. If you forgot to submit a check, it can also be done retrospectively.
-
-
-## Tests
-
-The test module ```pytest``` is used to test the most relevant functions of the habit tracker.
-
-Therefore, test cases can be tested typing ```pytest .``` in the Terminal.
-For proofing the functionality of the application, \
-the basic functionalities including the counting
-of the current streak are presented in the test_project.py file.
 
 ##Contribution
 This was my first Python Project. Any improvements or remarks from your side can help me. \
