@@ -1,4 +1,4 @@
-# Habit Tracking Application - Python Project 
+# Project: Artificial Intelligence - Python Project 
 
 ## Table of Contents
 1. Purpose
@@ -8,9 +8,11 @@
 5. Contribution
 
 ## Purpose
-This application supports tracking personal habits on a regular basis and helps \
-to keep an overview about habits. Also, it comes with some analysis \
-of the defined habits, It is a simple solution to create, track and analyse personal habits.
+The main goal of the task is the detection of the emotional state of a person that looks at a company’s
+advertisement. Therefore, an algorithm that accurately classifies the three emotional expressions
+joy, anger, or fear will be developed. The implementation of the project will be done with the help of
+Python in PyCharm. The final product can detect one of the three emotional states or none when
+receiving an unlabelled picture of a face.
 
 This application was created due as a part of a university project (Data Science) and \
 focuses on the backend processes in Python. 
