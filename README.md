@@ -24,7 +24,7 @@ This application was created due as a part of a university project (Data Science
 ### Usage
 1. Install Python (at least Python 3.8) on your computer
 (Find the latest version [here](https://www.python.org/downloads/)).
-2. Install the following modules within Python:\
+2. Install the following modules within Python:  
    - ```ImageDataGenerator``` from ```tensorflow.keras.preprocessing.image```\
    - ```Sequential```from ```tensorflow.keras.models```\
    - ```Conv2D, MaxPooling2D, Flatten, Dense, Dropout```from ```tensorflow.keras.layers```\
