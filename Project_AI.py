@@ -37,13 +37,13 @@ train_generator = train_datagen.flow_from_directory(
     subset="training"
 )
 
-# Load and preprocess the validation data
-val_generator = test_datagen.flow_from_directory(
-    test_dir,
+val_generator = train_datagen.flow_from_directory(
+    train_dir,
     target_size=img_size,
     batch_size=batch_size,
     color_mode="grayscale",
     class_mode="categorical",
+    subset="validation"
 )
 
 # Load test images
@@ -68,11 +68,11 @@ model = Sequential([
 
     Conv2D(64, (3, 3), activation="relu"),
     MaxPooling2D(pool_size=(2, 2)),
-    Dropout(0.3),
+    Dropout(0.4),
 
     Conv2D(128, (3, 3), activation="relu"),
     MaxPooling2D(pool_size=(2, 2)),
-    Dropout(0.3),
+    Dropout(0.4),
 
     Flatten(),
     Dense(128, activation="relu"),
@@ -90,7 +90,7 @@ model.summary()
 history = model.fit(
     train_generator,
     validation_data=val_generator,
-    epochs=35,
+    epochs=28,
 )
 
 # Evaluate model on test data
