@@ -22,7 +22,7 @@ This application was created due as a part of a university project (Data Science
 ### 3. Usage
 1. Install Python (at least Python 3.8) on your computer with a respective Development Environment
 (Find the latest version [here](https://www.python.org/downloads/)).
-2. Download the file "final_stable_emotion_model.keras"
+2. Download the file "final_stable_emotion_model.keras" from the zip-file of the submission.
 3. Load the code from ```Project_AI_Execute.py``` into your development IDE and run for classifying a new picture that is secured as picture on your computer.
    Please adjust the path in the code correctly to the picture and to the trained program under step 2.
 4. The result will be shown as an output.
